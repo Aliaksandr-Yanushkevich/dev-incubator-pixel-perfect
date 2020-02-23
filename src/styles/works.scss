@@ -2,40 +2,45 @@ $font: "Arial", sans-serif;
 .works {
   height: 1166px;
   background-color: #ffffff;
+  padding-top: 1px;
   //   display: flex;
   //   justify-content: center;
   //   align-items: center;
 }
 
-.works-title {
+.works-chapter {
   margin-top: 126px;
   display: flex;
   flex-direction: column;
   //   justify-content: center;
   align-items: center;
-  margin-left: 42px;
+  margin-left: 20px;
 }
 
-.works-header {
-  font-size: 38px;
-  font-family: "Montserrat", $font;
-  color: rgba(0, 0, 0, 0.902);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 0.737;
-  letter-spacing: 1.7px;
+.works-title {
+// //   font-size: 38px;
+// //   font-family: "Montserrat", $font;
+// //   color: rgba(0, 0, 0, 0.902);
+// //   font-weight: bold;
+// //   text-transform: uppercase;
+// //   line-height: 0.737;
+// //   letter-spacing: 1.7px;
+margin-right: 1px;
+letter-spacing: 1.8px;
 }
 
-.works-text {
-  font-size: 17px;
-  font-family: "Merriweather";
-  color: rgba(0, 0, 0, 0.62);
-  text-transform: uppercase;
-  line-height: 1.647;
-  text-align: center;
-  margin-top: 11px;
-  letter-spacing: 1.2px;
-  margin-right: 42px;
+.works-subtitle {
+//   font-size: 17px;
+//   font-family: "Merriweather";
+//   color: rgba(0, 0, 0, 0.62);
+//   text-transform: uppercase;
+//   line-height: 1.647;
+//   text-align: center;
+//   margin-top: 11px;
+//   letter-spacing: 1.2px;
+  margin-right: 21px;
+  letter-spacing: 0.6px;
+  margin-bottom: 115px;
 }
 
 .items {
@@ -43,10 +48,12 @@ $font: "Arial", sans-serif;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   max-width: 1140px;
-  margin: 115px auto;
-  grid-gap: 13px;
+  margin: 0 auto;
+  column-gap: 13px;
+  row-gap: 13px;
 }
 
 .item {
   justify-self: center;
+  position: relative;
 }
