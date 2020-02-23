@@ -1,22 +1,90 @@
+$font: "Arial", sans-serif;
 .info {
   height: 985px;
   background-color: #f8fafa;
   padding-top: 1px;
 }
 
-.info-text {
+.info-chapter {
   margin-top: 126px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .info-header {
   margin-left: 22px;
   letter-spacing: 1.5px;
   font-size: 38px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", $font;
   color: rgba(0, 0, 0, 0.902);
   font-weight: 700;
   text-transform: uppercase;
   line-height: 0.737;
+  display: flex;
+  justify-content: center;
+}
+
+.info-text {
+  font-size: 18px;
+  font-family: "Merriweather", $font;
+  color: rgba(0, 0, 0, 0.62);
+  text-transform: uppercase;
+  line-height: 1.556;
+  text-align: center;
+  letter-spacing: 1.3px;
+  margin-top: 11px;
+}
+
+.about {
+  display: flex;
+  margin-top: 140px;
+  padding-right: 13%;
+  padding-left: 16%;
+  justify-content: space-between;
+}
+
+// .about-image {
+//   margin-left: 230px;
+//   width: 50%;
+// }
+
+.about-text--wrapper {
+  border: 1px red solid;
+  max-width: 476px;
+}
+
+.about-header {
+  font-size: 20px;
+  font-family: "Merriweather", $font;
+  color: rgba(0, 0, 0, 0.749);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.4;
+  letter-spacing: 1.5px;
+  margin-bottom: 17px;
+}
+
+.about-text {
+  font-size: 16px;
+  font-family: "Raleway", $font;
+  color: rgba(0, 0, 0, 0.741);
+  line-height: 1.75;
+  letter-spacing: 0.8px;
+}
+
+.about-text--wrapper .about-text:nth-child(3) {
+  margin-top: 28px;
+}
+
+.about-header--little {
+  letter-spacing: 1.5px;
+  margin-top: 30px;
+  font-size: 17px;
+  font-family: "Merriweather", $font;
+  color: rgba(0, 0, 0, 0.749);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.647;
+  margin-bottom: 14px;
 }
