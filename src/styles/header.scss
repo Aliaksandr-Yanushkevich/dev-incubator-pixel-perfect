@@ -41,12 +41,12 @@ $font: "Arial", sans-serif;
 }
 
 .header-button {
-  display: flex;
-  justify-content: center;
-  margin-top: 138px;
+ margin: 137px auto 0 auto;
 }
 
 .button {
+  display: flex;
+  justify-content: center;
   border: 1px solid #ffffff;
   color: #ffffff;
   border-width: 2px;

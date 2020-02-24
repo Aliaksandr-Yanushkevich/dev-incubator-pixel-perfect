@@ -49,8 +49,9 @@ let config = {
                     {
                         loader: 'url-loader',
                         options: {
-                            limit: 8192,
-                        },
+                            filename: "[name].[ext]",
+                            publicPath: "../"
+                          }
                     },
                 ],
             },

@@ -1,0 +1,98 @@
+$font: "Arial", sans-serif;
+
+.contacts {
+  width: 79.2%;
+  height: 841px;
+  background-image: url("../../img/contacts/bg.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  padding-bottom: 1px;
+}
+
+.contacts-container {
+  margin-top: 258px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-family: "Raleway";
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 3.4;
+}
+
+.message {
+  min-height: 460px;
+  font-size: 16px;
+  font-family: "Raleway", $font;
+  color: rgba(0, 0, 0, 0.741);
+  line-height: 1.75;
+  letter-spacing: 0.8px;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 53.8%;
+  max-width: 613px;
+  border: 1px red solid;
+  background-color: rgb(2, 22, 35);
+  opacity: 0.71;
+  box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12);
+  position: relative;
+}
+
+.contacts-button {
+  border-radius: 1px;
+  border: 1px solid #82EEE4;
+  margin-left: 28px;
+  margin-top: 37px;
+  margin-bottom: 38px;
+  width: 245px;
+  height: 53px;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgba(0, 0, 0, 0.702);
+  text-transform: uppercase;
+  line-height: 1.556;
+  letter-spacing: 2px;
+  background-color: #6eeee4;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  opacity: 1;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  width: 43.9%;
+  max-width: 500px;
+  border: 1px red solid;
+}
+
+.input {
+  padding-top: 17px;
+  height: 60px;
+  width: 90%;
+  margin: 0 auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px #5e6d77 solid;
+  background-color: rgb(2, 22, 35);
+  // opacity: 0.71;
+  // box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12);
+}
+
+.textarea {
+  width: 90%;
+  margin: 0 auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-top: 26px;
+  height: 134px;
+  background-color: rgb(2, 22, 35);
+  opacity: 0.71;
+  box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12);
+  font-size: 15px;
+  font-family: "Raleway";
+  color: rgba(255, 255, 255, 0.6);
+}
