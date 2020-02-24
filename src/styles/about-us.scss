@@ -1,75 +1,74 @@
 $font: "Arial", sans-serif;
+
 .info {
   height: 985px;
-  background-color: #f8fafa;
   padding-top: 1px;
+
+  background-color: #f8fafa;
 }
 
 .info-chapter {
-  margin-top: 126px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  justify-content: center;
+  margin-top: 126px;
 }
 
 .title {
-  margin-left: 22px;
-  letter-spacing: 1.5px;
-  font-size: 38px;
-  font-family: "Montserrat", $font;
-  color: rgba(0, 0, 0, 0.902);
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 0.737;
   display: flex;
   justify-content: center;
+  margin-left: 22px;
+
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 0.737;
+  font-family: "Montserrat", $font;
+  color: rgba(0, 0, 0, 0.902);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 .subtitle {
+  margin-top: 11px;
+
   font-size: 18px;
+  line-height: 1.556;
   font-family: "Merriweather", $font;
+  text-align: center;
   color: rgba(0, 0, 0, 0.62);
   text-transform: uppercase;
-  line-height: 1.556;
-  text-align: center;
   letter-spacing: 1.3px;
-  margin-top: 11px;
 }
 
 .about {
   display: flex;
+  justify-content: space-between;
   margin-top: 140px;
   padding-right: 13%;
   padding-left: 16%;
-  justify-content: space-between;
 }
 
-// .about-image {
-//   margin-left: 230px;
-//   width: 50%;
-// }
-
 .about-text--wrapper {
-  border: 1px red solid;
   max-width: 476px;
 }
 
 .about-header {
+  margin-bottom: 17px;
+
+  font-weight: bold;
   font-size: 20px;
+  line-height: 1.4;
   font-family: "Merriweather", $font;
   color: rgba(0, 0, 0, 0.749);
-  font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.4;
   letter-spacing: 1.5px;
-  margin-bottom: 17px;
 }
 
 .about-text {
   font-size: 16px;
+  line-height: 1.75;
   font-family: "Raleway", $font;
   color: rgba(0, 0, 0, 0.741);
-  line-height: 1.75;
   letter-spacing: 0.8px;
 }
 
@@ -78,13 +77,14 @@ $font: "Arial", sans-serif;
 }
 
 .header--little {
-  letter-spacing: 1.5px;
   margin-top: 30px;
+  margin-bottom: 14px;
+
+  font-weight: bold;
   font-size: 17px;
+  line-height: 1.647;
   font-family: "Merriweather", $font;
   color: rgba(0, 0, 0, 0.749);
-  font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.647;
-  margin-bottom: 14px;
+  letter-spacing: 1.5px;
 }

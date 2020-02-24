@@ -37,14 +37,14 @@
           </h2>
         </div>
         <button class="button header-button" id="contact">
-          <p class="button-text">Contact us</p>
+          <span class="button-text"> Contact us</span>
         </button>
         <div class="header-image">
           <img src="./img/header/glass.jpg" alt="Image is not supported" />
         </div>
       </header>
       <main>
-        <section class="info">
+        <div class="info">
           <div class="info-chapter">
             <h2 class="title">ABOUT US</h2>
             <p class="subtitle">
@@ -78,8 +78,8 @@
               </p>
             </div>
           </div>
-        </section>
-        <section class="works">
+        </div>
+        <div class="works">
           <div class="works-chapter">
             <h2 class="title works-title">featured works</h2>
             <p class="subtitle works-subtitle">
@@ -125,8 +125,8 @@
               alt="Image is not supported"
             />
           </div>
-        </section>
-        <section class="team">
+        </div>
+        <div class="team">
           <div class="team-chapter">
             <h2 class="title">Small team</h2>
             <p class="subtitle team-subtitle">
@@ -321,8 +321,8 @@
               <img src="./img/team/6.png" alt="Image is not supported" />
             </div>
           </div>
-        </section>
-        <section class="contacts">
+        </div>
+        <div class="contacts">
           <div class="contacts-container">
             <form class="message">
               <input class="input" placeholder="Name*" type="text" required />
@@ -353,13 +353,13 @@
                 <span class="contact-item">Adress line 2</span>
                 <span class="contact-item"
                   >Phone:
-                  <a class="contact-link" href="tel:+548 945645"
+                  <a class="contact-link" href="tel:+548945645"
                     >+548 945645</a
                   ></span
                 >
                 <span class="contact-item"
                   >Fax:
-                  <a class="contact-link" href="fax:+456456 54546"
+                  <a class="contact-link" href="fax:+45645654546"
                     >+456456 54546</a
                   ></span
                 >
@@ -381,18 +381,16 @@
               </div>
               <div class="map-yandex">
                 <script
-                  type="text/javascript"
-                  charset="utf-8"
                   async
                   src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7469a1551816502413f4cee6377cbb729faca4555bcf190ae0cca5beea332c30&amp;width=455&amp;height=224&amp;lang=en_US&amp;scroll=true"
                 ></script>
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </main>
       <footer>
-        <section class="footer">
+        <div class="footer">
           <div class="follow-us">
             <span class="follow-us--title">Follow us</span>
             <div class="follow-us--container">
@@ -424,11 +422,16 @@
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </footer>
       <div id="myModal" class="modal">
         <span class="close">&times;</span>
-        <img class="modal-content" id="img1" />
+        <img
+          class="modal-content"
+          src="#"
+          id="img1"
+          alt="Image is not supported"
+        />
       </div>
     </div>
     <script src="./dist/index.js"></script>
