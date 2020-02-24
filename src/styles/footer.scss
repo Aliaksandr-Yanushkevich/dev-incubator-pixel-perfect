@@ -1,4 +1,26 @@
 .footer {
-    min-height: 315px;
-    background-color: #262b2e;
+  min-height: 315px;
+  background-color: #262b2e;
+  padding-top: 1px;
+}
+
+.follow-us {
+  margin: 86px auto 0 auto;
+  max-width: 205px;
+}
+
+.follow-us--title {
+  font-size: 16px;
+  font-family: "Raleway";
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.563;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.follow-us--item {
+  display: flex;
+  justify-content: space-between;
 }
