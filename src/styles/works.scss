@@ -3,41 +3,22 @@ $font: "Arial", sans-serif;
   height: 1166px;
   background-color: #ffffff;
   padding-top: 1px;
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
 }
 
 .works-chapter {
   margin-top: 126px;
   display: flex;
   flex-direction: column;
-  //   justify-content: center;
   align-items: center;
   margin-left: 20px;
 }
 
 .works-title {
-// //   font-size: 38px;
-// //   font-family: "Montserrat", $font;
-// //   color: rgba(0, 0, 0, 0.902);
-// //   font-weight: bold;
-// //   text-transform: uppercase;
-// //   line-height: 0.737;
-// //   letter-spacing: 1.7px;
-margin-right: 1px;
-letter-spacing: 1.8px;
+  margin-right: 1px;
+  letter-spacing: 1.8px;
 }
 
 .works-subtitle {
-//   font-size: 17px;
-//   font-family: "Merriweather";
-//   color: rgba(0, 0, 0, 0.62);
-//   text-transform: uppercase;
-//   line-height: 1.647;
-//   text-align: center;
-//   margin-top: 11px;
-//   letter-spacing: 1.2px;
   margin-right: 21px;
   letter-spacing: 0.6px;
   margin-bottom: 115px;
@@ -56,4 +37,12 @@ letter-spacing: 1.8px;
 .item {
   justify-self: center;
   position: relative;
+}
+
+.work-item {
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    opacity: 0.7;
+  }
 }
