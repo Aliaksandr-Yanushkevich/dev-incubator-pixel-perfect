@@ -24,7 +24,10 @@
         <h1 class="hidden">Shopno</h1>
         <div class="header-logo">
           <a class="header-link" href="#"
-            ><img src="./img/header/logo.png" alt="Image is not supported"
+            ><img
+              class="header-link--image"
+              src="./img/header/logo.png"
+              alt="Image is not supported"
           /></a>
         </div>
         <div class="header-text">
@@ -323,8 +326,13 @@
           <div class="contacts-container">
             <form class="message">
               <input class="input" placeholder="Name*" type="text" required />
-              <input class="input" placeholder="Subject*" type="text" />
-              <input class="input" placeholder="E-mail*" type="text" />
+              <input
+                class="input"
+                placeholder="Subject*"
+                type="text"
+                required
+              />
+              <input class="input" placeholder="E-mail*" type="text" required />
               <textarea
                 class="textarea"
                 placeholder="Message*"
@@ -360,11 +368,13 @@
               <div class="contact-web">
                 <span class="contact-item"
                   >Web:
-                  <a href="www.designagency.net">www.designagency.net</a></span
+                  <a class="contact-link" href="www.designagency.net"
+                    >www.designagency.net</a
+                  ></span
                 >
                 <span class="contact-item"
                   >E-mail:
-                  <a href="mailto:info@designagency.net"
+                  <a class="contact-link" href="mailto:info@designagency.net"
                     >info@designagency.net</a
                   ></span
                 >
@@ -385,25 +395,33 @@
         <section class="footer">
           <div class="follow-us">
             <span class="follow-us--title">Follow us</span>
-            <div class="follow-us--item">
-              <a href="#"
-                ><img
-                  src="./img/footer/pinterest.png"
-                  alt="Image is not supported"
-              /></a>
-              <a href="#"
-                ><img
-                  src="./img/footer/twitter.png"
-                  alt="Image is not supported"
-              /></a>
-              <a href="#"
-                ><img
-                  src="./img/footer/facebook.png"
-                  alt="Image is not supported"
-              /></a>
-              <a href="#"
-                ><img src="./img/footer/logo.png" alt="Image is not supported"
-              /></a>
+            <div class="follow-us--container">
+              <div class="follow-us--item">
+                <a href="#"
+                  ><img
+                    src="./img/footer/pinterest.png"
+                    alt="Image is not supported"
+                /></a>
+              </div>
+              <div class="follow-us--item">
+                <a href="#"
+                  ><img
+                    src="./img/footer/twitter.png"
+                    alt="Image is not supported"
+                /></a>
+              </div>
+              <div class="follow-us--item">
+                <a href="#"
+                  ><img
+                    src="./img/footer/facebook.png"
+                    alt="Image is not supported"
+                /></a>
+              </div>
+              <div class="follow-us--item">
+                <a href="#"
+                  ><img src="./img/footer/logo.png" alt="Image is not supported"
+                /></a>
+              </div>
             </div>
           </div>
         </section>
@@ -411,9 +429,8 @@
       <div id="myModal" class="modal">
         <span class="close">&times;</span>
         <img class="modal-content" id="img1" />
-        <!-- <div id="caption"></div> -->
       </div>
     </div>
-  <script src='./dist/index.js'></script>  
+    <script src="./dist/index.js"></script>
   </body>
 </html>

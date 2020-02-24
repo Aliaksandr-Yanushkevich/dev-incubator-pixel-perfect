@@ -21,7 +21,7 @@ window.onload = function () {
             modal.style.display = "block";
             modalImg.src = selectedImg.src;
         }
-        // captionText.innerHTML = this.alt;
+        
     }
 
     // Get the <span> element that closes the modal
