@@ -1,15 +1,17 @@
 $font: "Arial", sans-serif;
 
 .contacts {
-  width: 79.2%;
+  width: 100%;
   height: 841px;
   background-image: url("../../img/contacts/bg.jpg");
   background-size: cover;
-  margin: 0 auto;
-  padding-bottom: 1px;
+  // margin: 0 auto;
+  padding-top: 1px;
 }
 
 .contacts-container {
+  margin: 0 auto;
+  width: 79.2%;
   margin-top: 258px;
   display: flex;
   justify-content: space-between;
@@ -40,7 +42,7 @@ $font: "Arial", sans-serif;
 
 .contacts-button {
   border-radius: 1px;
-  border: 1px solid #82EEE4;
+  border: 1px solid #82eee4;
   margin-left: 28px;
   margin-top: 37px;
   margin-bottom: 38px;
@@ -65,6 +67,9 @@ $font: "Arial", sans-serif;
   width: 43.9%;
   max-width: 500px;
   border: 1px red solid;
+  background-color: rgb(2, 22, 35);
+  opacity: 0.71;
+  box-shadow: 0px 0px 3px 0px rgba(21, 21, 21, 0.16);
 }
 
 .input {
@@ -77,8 +82,6 @@ $font: "Arial", sans-serif;
   border-right: none;
   border-bottom: 1px #5e6d77 solid;
   background-color: rgb(2, 22, 35);
-  // opacity: 0.71;
-  // box-shadow: 0px 0px 30px 0px rgba(21, 21, 21, 0.12);
 }
 
 .textarea {
@@ -95,4 +98,30 @@ $font: "Arial", sans-serif;
   font-size: 15px;
   font-family: "Raleway";
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-info {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15px;
+}
+
+.contact-item {
+  color: red;
+  padding-left: 4px;
+  margin-top: 25px;
+  line-height: 0;
+}
+
+.contact-web {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+.map-yandex {
+  margin: 32px auto 10px auto;
 }
