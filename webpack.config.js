@@ -77,7 +77,10 @@ let config = {
         new CopyWebpackPlugin([
             { from: './src/img', to: './src/img' }
         ])
-    ]
+    ],
+    devServer: {
+        contentBase: './dist'
+     },
 };
 
 module.exports = (env, argv) => {

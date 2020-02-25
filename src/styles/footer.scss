@@ -41,3 +41,16 @@ $font: "Arial", sans-serif;
     background-color: #6eeee4;
   }
 }
+
+@media (max-width: 1024px) {
+  .footer {
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .follow-us {
+    margin: 0;
+  }
+}
