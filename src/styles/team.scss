@@ -22,6 +22,8 @@ $font: "Arial", sans-serif;
 
 .item-wrapper {
   position: relative;
+  width: 90.57%;
+  margin: 0 auto;
 }
 
 .item-info {
@@ -31,7 +33,7 @@ $font: "Arial", sans-serif;
   z-index: 5;
 
   width: 100%;
-  max-width: 336px;
+  // max-width: 336px;
   padding: 37px 41px 38px 39px;
 
   background-color: #6ff6eb;

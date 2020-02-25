@@ -13,8 +13,7 @@ $font: "Arial", sans-serif;
   display: flex;
   justify-content: space-between;
   width: 79.38%;
-  margin: 0 auto;
-  margin-top: 257px;
+  margin: 257px auto 0 auto;
 
   font-size: 15px;
   line-height: 3.4;
@@ -170,5 +169,13 @@ $font: "Arial", sans-serif;
 
     width: 90%;
     margin: 20px auto 20px auto;
+  }
+
+  .contacts {
+    background: none;
+  }
+
+  .contacts-container {
+    margin: 10px auto;
   }
 }
