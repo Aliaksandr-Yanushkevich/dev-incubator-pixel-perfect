@@ -17,8 +17,8 @@ $font: "Arial", sans-serif;
 .works-title {
   margin-right: 1px;
 
-  letter-spacing: 1.8px;
   text-align: center;
+  letter-spacing: 1.8px;
 }
 
 .works-subtitle {
@@ -42,8 +42,9 @@ $font: "Arial", sans-serif;
 .item {
   position: relative;
 
-  justify-self: center;
   width: 100%;
+
+  justify-self: center;
 }
 
 .work-item {

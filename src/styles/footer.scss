@@ -44,10 +44,10 @@ $font: "Arial", sans-serif;
 
 @media (max-width: 1024px) {
   .footer {
-    min-height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 150px;
   }
 
   .follow-us {

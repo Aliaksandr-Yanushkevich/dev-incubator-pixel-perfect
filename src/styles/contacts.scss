@@ -91,12 +91,13 @@ $font: "Arial", sans-serif;
   margin: 0 auto;
   padding-top: 17px;
 
+  color: #bbc0c3;
+
   background-color: rgb(2, 22, 35);
   border-top: none;
   border-right: none;
   border-bottom: 1px #5e6d77 solid;
   border-left: none;
-  color: #bbc0c3;
 }
 
 .textarea {
@@ -146,8 +147,8 @@ $font: "Arial", sans-serif;
 }
 
 .map-yandex {
-  margin: 32px auto 10px auto;
   width: 90.8%;
+  margin: 32px auto 10px auto;
 }
 
 @media (max-width: 750px) {
@@ -166,6 +167,7 @@ $font: "Arial", sans-serif;
 
   .contacts-button {
     position: static;
+
     width: 90%;
     margin: 20px auto 20px auto;
   }
