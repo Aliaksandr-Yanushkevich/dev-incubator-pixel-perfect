@@ -1,7 +1,7 @@
 $font: "Arial", sans-serif;
 
 .works {
-  height: 1166px;
+  min-height: 1166px;
   padding-top: 1px;
 
   background-color: #ffffff;
@@ -12,17 +12,16 @@ $font: "Arial", sans-serif;
   flex-direction: column;
   align-items: center;
   margin-top: 126px;
-  margin-left: 20px;
 }
 
 .works-title {
   margin-right: 1px;
 
   letter-spacing: 1.8px;
+  text-align: center;
 }
 
 .works-subtitle {
-  margin-right: 21px;
   margin-bottom: 115px;
 
   letter-spacing: 0.6px;
@@ -44,6 +43,7 @@ $font: "Arial", sans-serif;
   position: relative;
 
   justify-self: center;
+  width: 100%;
 }
 
 .work-item {
@@ -53,5 +53,21 @@ $font: "Arial", sans-serif;
 
   &:hover {
     opacity: 0.7;
+  }
+}
+
+@media (max-width: 1200px) {
+  .items {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 13px;
+  }
+}
+
+@media (max-width: 780px) {
+  .items {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 13px;
   }
 }

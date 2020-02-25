@@ -95,3 +95,32 @@ $font: "Arial", sans-serif;
   right: 243px;
   bottom: 138px;
 }
+
+@media (max-width: 900px) {
+  .header-image {
+    display: none;
+  }
+  .header-logo {
+    margin: 20px 0 0 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header-text {
+    margin-top: 120px;
+  }
+
+  .header-text--title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 570px) {
+  .header-text--title {
+    font-size: 20px;
+  }
+
+  .header {
+    height: 500px;
+  }
+}
